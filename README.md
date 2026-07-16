@@ -179,6 +179,10 @@ The proposed framework is evaluated using:
 
 ![Performance Comparison](results/bar_comparison.png)
 
+### Recall Comparison
+
+![Recall Comparison](results/recall_comparison.png)
+
 
 # Visual Results
 
