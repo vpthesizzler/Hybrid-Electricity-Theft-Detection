@@ -38,6 +38,7 @@ The main contributions of this work include:
 The proposed framework follows the workflow below:
 
 ```
+## Methodology Workflow
 ![Workflow Diagram](figures/workflow.png)
 
 
