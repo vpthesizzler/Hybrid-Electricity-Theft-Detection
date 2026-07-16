@@ -1,7 +1,7 @@
 # Hybrid Machine Learning-Based Electricity Theft Detection in Smart Grids Using Load and Frequency Features
 
 ![Python](https://img.shields.io/badge/Python-3.10-blue)
-![Machine Learning](https://img.shields.io/badge/Machine%20Learning-XGBoost%20%7C%20Random%20Forest-orange)
+![Machine Learning](https://img.shields.io/badge/Machine%20Learning-RF%20%7C%20MLP-orange)
 ![Smart Grid](https://img.shields.io/badge/Application-Smart%20Grid-green)
 ![License](https://img.shields.io/badge/License-MIT-yellow)
 ![Research](https://img.shields.io/badge/Project-Research%20Implementation-success)
@@ -70,33 +70,35 @@ The final prediction is generated using the optimised classification threshold o
 ```
 hybrid-electricity-theft-detection/
 
-│
 ├── data/
 │ └── README.md
 │
 ├── notebooks/
-│ └── Electricity_Theft_Detection.ipynb
+│ └── README.md
 │
 ├── src/
+│ ├── main.py
 │ ├── preprocessing.py
 │ ├── feature_engineering.py
 │ ├── train_model.py
-│ └── evaluate.py
+│ ├── evaluate.py
+│ ├── utils.py
+│ └── README.md
 │
 ├── figures/
-│ ├── workflow.png
-│ ├── confusion_matrix.png
-│ ├── roc_curve.png
-│ └── feature_importance.png
+│ └── workflow.png
 │
 ├── results/
-│ ├── metrics.csv
-│ └── classification_report.txt
+│ ├── model_comparison.csv
+│ ├── model_comparison_table.png
+│ ├── bar_comparison.png
+│ ├── recall_comparison.png
+│ ├── roc_curve.png
+│ └── confusion_matrix_hybrid.png
 │
 ├── requirements.txt
-├── README.md
 ├── LICENSE
-└── .gitignore
+└── README.md
 ```
 
 ---
@@ -109,7 +111,14 @@ Due to dataset licensing restrictions, the original datasets are **not included 
 
 Users should obtain the required datasets from their respective official sources and place them inside the `data/` directory.
 
-A sample dataset structure is provided for demonstration purposes.
+Due to dataset licensing restrictions, the original datasets are not included in this repository.
+
+The implementation expects the processed datasets to be placed in the data directory:
+
+- SGCC smart meter dataset
+- Frequency feature dataset
+
+Dataset preparation instructions are documented in data/README.md.
 
 ---
 
@@ -126,6 +135,9 @@ Navigate to the project folder:
 ```bash
 cd hybrid-electricity-theft-detection
 ```
+
+```bash
+python src/main.py
 
 Install required dependencies:
 
