@@ -12,11 +12,9 @@
 
 Electricity theft is a major challenge for modern power systems, causing revenue losses, operational inefficiencies, and reliability concerns for distribution networks.
 
-This repository presents a **hybrid machine learning framework for electricity theft detection in smart grids** by integrating consumer load behaviour features with power system frequency information.
+This repository presents a hybrid machine learning framework for electricity theft detection in smart grids by integrating consumer load behaviour features with power system frequency information.
 
-The proposed approach combines **Random Forest (RF)** and **Extreme Gradient Boosting (XGBoost)** classifiers through a weighted soft-voting ensemble to improve detection capability and robustness under imbalanced smart meter data conditions.
-
-The framework demonstrates the potential of artificial intelligence-based methods for enhancing security, monitoring, and resilience in future smart grid infrastructures.
+The proposed approach combines **Random Forest (RF)** and **Multi-Layer Perceptron (MLP)** classifiers through a weighted probability fusion strategy to improve detection performance under imbalanced smart meter data conditions.
 
 ---
 
@@ -24,7 +22,7 @@ The framework demonstrates the potential of artificial intelligence-based method
 
 The main contributions of this work include:
 
-- Development of a hybrid RF-XGBoost machine learning detection framework.
+- Development of a hybrid Random Forest and Multi-Layer Perceptron (RF-MLP) electricity theft detection framework.
 - Integration of smart meter load characteristics with frequency-based grid features.
 - Feature engineering pipeline for electricity theft classification.
 - Handling of class imbalance using data balancing techniques.
@@ -55,22 +53,26 @@ The proposed framework follows the workflow below:
 
 The implemented models include:
 
-## Random Forest
+### Support Vector Machine (SVM)
 
-A tree-based ensemble learning algorithm used for robust classification and feature importance analysis.
+Used as a baseline classification model to evaluate conventional machine learning performance.
 
-## XGBoost
+### Random Forest (RF)
 
-An optimized gradient boosting algorithm designed for high-performance classification tasks.
+A tree-based ensemble learning algorithm used for robust classification and feature learning.
 
-## Hybrid Ensemble Model
+### Multi-Layer Perceptron (MLP)
 
-The final detection model combines Random Forest and XGBoost predictions using weighted soft voting:
+A neural network-based classifier used to capture complex nonlinear relationships within smart grid data.
 
-```
-Hybrid Prediction =
-Weighted combination of RF probability + XGBoost probability
-```
+### Hybrid RF-MLP Ensemble
+
+The proposed model combines Random Forest and MLP probability outputs using weighted fusion:
+
+- Random Forest contribution: 60%
+- MLP contribution: 40%
+
+The final prediction is generated using the optimised classification threshold obtained from ROC analysis.
 
 ---
 
