@@ -173,6 +173,22 @@ The proposed framework is evaluated using:
 - ROC-AUC
 - Confusion Matrix
 
+### Model Performance Comparison
+
+![Model Comparison](results/model_comparison_table.png)
+
+### ROC Curve
+
+![ROC Curve](results/roc_curve.png)
+
+### Confusion Matrix
+
+![Confusion Matrix](results/confusion_matrix_hybrid.png)
+
+### Performance Comparison
+
+![Performance Comparison](results/bar_comparison.png)
+
 Example comparison:
 
 | Model | Accuracy | Precision | Recall | F1-score | ROC-AUC |
@@ -181,7 +197,7 @@ Example comparison:
 | XGBoost | - | - | - | - | - |
 | Hybrid Ensemble | - | - | - | - | - |
 
-*(Results will be updated with final publication values.)*
+
 
 ---
 
