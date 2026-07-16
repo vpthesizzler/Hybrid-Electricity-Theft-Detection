@@ -253,7 +253,6 @@ Research Interests:
 This work acknowledges the contribution of open-source Python machine learning libraries:
 
 - Scikit-learn
-- XGBoost
 - Pandas
 - NumPy
 - Matplotlib
