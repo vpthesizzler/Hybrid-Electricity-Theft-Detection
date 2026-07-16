@@ -51,10 +51,6 @@ The proposed framework follows the workflow below:
 
 ![ROC Curve](figures/roc_curve.png)
 
-### Feature Importance
-
-![Feature Importance](figures/feature_importance.png)
-
 # Machine Learning Framework
 
 The implemented models include:
