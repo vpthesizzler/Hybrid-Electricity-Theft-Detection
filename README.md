@@ -12,7 +12,7 @@
 
 Electricity theft is a major challenge for modern power systems, causing revenue losses, operational inefficiencies, and reliability concerns for distribution networks.
 
-This repository presents a hybrid machine learning framework for electricity theft detection in smart grids by integrating consumer load behaviour features with power system frequency information.
+This repository presents a hybrid machine learning framework for electricity theft detection in smart grids by integrating smart meter load behaviour features with power system frequency characteristics derived from grid measurements.
 
 The proposed approach combines **Random Forest (RF)** and **Multi-Layer Perceptron (MLP)** classifiers through a weighted probability fusion strategy to improve detection performance under imbalanced smart meter data conditions.
 
@@ -25,7 +25,7 @@ The main contributions of this work include:
 - Development of a hybrid Random Forest and Multi-Layer Perceptron (RF-MLP) electricity theft detection framework.
 - Integration of smart meter load characteristics with frequency-based grid features.
 - Feature engineering pipeline for electricity theft classification.
-- Handling of class imbalance using data balancing techniques.
+- Handling of class imbalance using Synthetic Minority Oversampling Technique (SMOTE).
 - Comparative evaluation of individual and ensemble machine learning models.
 - Development of a reproducible Python-based research workflow.
 
@@ -107,10 +107,6 @@ hybrid-electricity-theft-detection/
 
 This research uses smart grid electricity consumption data combined with frequency-related grid information.
 
-Due to dataset licensing restrictions, the original datasets are **not included in this repository**.
-
-Users should obtain the required datasets from their respective official sources and place them inside the `data/` directory.
-
 Due to dataset licensing restrictions, the original datasets are not included in this repository.
 
 The implementation expects the processed datasets to be placed in the data directory:
@@ -127,7 +123,7 @@ Dataset preparation instructions are documented in data/README.md.
 Clone this repository:
 
 ```bash
-git clone https://github.com/yourusername/hybrid-electricity-theft-detection.git
+git clone https://github.com/vpthesizzler/hybrid-electricity-theft-detection.git
 ```
 
 Navigate to the project folder:
@@ -135,15 +131,16 @@ Navigate to the project folder:
 ```bash
 cd hybrid-electricity-theft-detection
 ```
-
-```bash
-python src/main.py
-
 Install required dependencies:
 
 ```bash
 pip install -r requirements.txt
-```
+
+Run the complete pipeline:
+
+
+```bash
+python src/main.py
 
 ---
 
@@ -203,8 +200,8 @@ The repository contains:
 - Model workflow diagram
 - Confusion matrix
 - ROC curve
-- Feature importance analysis
 - Performance comparison plots
+- Recall comparison analysis
 
 ---
 
@@ -239,6 +236,10 @@ Under Review
 Vrushabh Patil,
 "Hybrid Machine Learning-Based Electricity Theft Detection in Smart Grids Using Load and Frequency Features",
 Under Review.
+
+**Repository:**
+https://github.com/vpthesizzler/Hybrid-Electricity-Theft-Detection
+
 ```
 
 ---
