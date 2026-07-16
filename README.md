@@ -182,17 +182,6 @@ The proposed framework is evaluated using:
 
 ![Performance Comparison](results/bar_comparison.png)
 
-Example comparison:
-
-| Model | Accuracy | Precision | Recall | F1-score | ROC-AUC |
-|---|---|---|---|---|---|
-| Random Forest | - | - | - | - | - |
-| XGBoost | - | - | - | - | - |
-| Hybrid Ensemble | - | - | - | - | - |
-
-
-
----
 
 # Visual Results
 
