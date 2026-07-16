@@ -39,16 +39,6 @@ The proposed framework follows the workflow below:
 
 ![Workflow Diagram](figures/workflow.png)
 
-## Performance Analysis
-
-### Confusion Matrix
-
-![Confusion Matrix](figures/confusion_matrix.png)
-
-### ROC Curve
-
-![ROC Curve](figures/roc_curve.png)
-
 # Machine Learning Framework
 
 The implemented models include:
@@ -177,6 +167,13 @@ The proposed framework is evaluated using:
 
 ![Model Comparison](results/model_comparison_table.png)
 
+### ROC Curve
+
+![ROC Curve](results/roc_curve.png)
+
+### Confusion Matrix
+
+![Confusion Matrix](results/confusion_matrix_hybrid.png)
 
 ### Performance Comparison
 
