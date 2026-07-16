@@ -38,7 +38,7 @@ The main contributions of this work include:
 The proposed framework follows the workflow below:
 
 ```
-<img width="525" height="1073" alt="image" src="https://github.com/user-attachments/assets/54888aa0-6fc0-45bc-915c-7336583be7a2" />
+![Workflow Diagram](figures/workflow.png)
 
 
 ---
