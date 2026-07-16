@@ -155,7 +155,6 @@ Python >= 3.10
 numpy
 pandas
 scikit-learn
-xgboost
 imbalanced-learn
 matplotlib
 joblib
@@ -178,13 +177,6 @@ The proposed framework is evaluated using:
 
 ![Model Comparison](results/model_comparison_table.png)
 
-### ROC Curve
-
-![ROC Curve](results/roc_curve.png)
-
-### Confusion Matrix
-
-![Confusion Matrix](results/confusion_matrix_hybrid.png)
 
 ### Performance Comparison
 
