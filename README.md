@@ -41,6 +41,19 @@ The proposed framework follows the workflow below:
 
 ![Workflow Diagram](figures/workflow.png)
 
+## Performance Analysis
+
+### Confusion Matrix
+
+![Confusion Matrix](figures/confusion_matrix.png)
+
+### ROC Curve
+
+![ROC Curve](figures/roc_curve.png)
+
+### Feature Importance
+
+![Feature Importance](figures/feature_importance.png)
 
 # Machine Learning Framework
 
