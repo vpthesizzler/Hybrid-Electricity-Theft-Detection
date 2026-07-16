@@ -74,7 +74,6 @@ The proposed model combines Random Forest and MLP probability outputs using weig
 
 The final prediction is generated using the optimised classification threshold obtained from ROC analysis.
 
----
 
 # Repository Structure
 
