@@ -159,8 +159,6 @@ matplotlib
 joblib
 ```
 
----
-
 # Results
 
 The proposed framework is evaluated using:
