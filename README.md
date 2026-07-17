@@ -135,13 +135,15 @@ Install required dependencies:
 
 ```bash
 pip install -r requirements.txt
+```
+
 
 Run the complete pipeline:
 
 
 ```bash
 python src/main.py
-
+```
 ---
 
 # Requirements
