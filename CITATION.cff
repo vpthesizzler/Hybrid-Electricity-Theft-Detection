@@ -1,0 +1,18 @@
+cff-version: 1.2.0
+title: "Hybrid Machine Learning-Based Electricity Theft Detection in Smart Grids Using Load and Frequency Features"
+message: "If you use this repository, please cite this work."
+type: software
+
+authors:
+- family-names: "Patil"
+given-names: "Vrushabh"
+
+repository-code: "https://github.com/vpthesizzler/Hybrid-Electricity-Theft-Detection"
+
+keywords:
+- Artificial Intelligence
+- Machine Learning
+- Smart Grid
+- Electricity Theft Detection
+- Renewable Energy
+- Power Systems
